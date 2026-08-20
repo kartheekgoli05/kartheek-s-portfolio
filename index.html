@@ -882,11 +882,11 @@
     </div>
     <div class="projects-grid">
 
-      <!-- FEATURED: SciRio Dashboard -->
+      <!-- FEATURED: Sales Analytics & CRM Dashboard -->
       <div class="project-card featured">
         <div>
           <div class="project-icon icon-purple">📋</div>
-          <div class="project-title">SciRio — End-to-End Sales Analytics Platform</div>
+          <div class="project-title">Sales Analytics &amp; CRM Dashboard</div>
           <div class="project-desc">A real-time sales command center that started as a layer over Google Sheets and grew into a full editable replacement for it. Everything is editable inside the dashboard — add rows (leads, tools, freelancers) and add columns (custom fields and metrics) without touching a spreadsheet.</div>
           <div class="project-desc" style="margin-top: 10px;"><strong style="color:var(--text)">Hybrid data model:</strong> existing Sheets data is imported, while <strong style="color:var(--text)">Supabase (PostgreSQL)</strong> stores everything created or edited in-app — on conflict, the dashboard wins. Custom columns are added on the fly via a flexible key-value store, so new fields ship with no schema changes.</div>
           <div class="project-desc" style="margin-top: 10px;"><strong style="color:var(--text)">Stage-based pipeline</strong> in three views — editable table, Kanban board, and a cadence/sequence tracker showing each lead's exact outreach step (<strong style="color:var(--text)">Cold Email → LinkedIn → Follow-Up → Discovery Call → Proposal → Closed</strong>), with due-today and overdue follow-up alerts. KPI tracker computes metrics live from the actual pipeline with manual override on any number. Tools ROI auto-attributes leads to the channel that generated them and computes cost-per-lead, full-funnel conversion, and ROI per tool.</div>
@@ -911,15 +911,14 @@
                 <span>📊</span>
                 <div>
                   <div>View Live CRM Dashboard</div>
-                  <div style="font-size: 11px; opacity: 0.6; font-weight: 400;">Sales funnel · KPI tracking · 8 tabs</div>
+                  <div style="font-size: 11px; opacity: 0.6; font-weight: 400;">No login needed · Sales funnel · KPI tracking · 8 tabs</div>
                 </div>
               </div>
               <span class="link-arrow">→</span>
             </a>
-            <a href="https://github.com/kartheekgoli05/scirio-crm-dashboard" target="_blank" class="project-link-btn" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);color:var(--muted);margin-top:10px;">
-              <div class="link-left"><span>⌥</span><div>View Source Code</div></div>
-              <span class="link-arrow">→</span>
-            </a>
+            <div class="project-link-btn" style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);color:var(--muted);margin-top:10px;cursor:default;">
+              <div class="link-left"><span>⌥</span><div>Source code private — available on request</div></div>
+            </div>
           </div>
 
           <div style="background: rgba(99,102,241,0.07); border: 1px solid rgba(99,102,241,0.2); border-radius: 14px; padding: 20px; margin-top: 16px;">
@@ -956,7 +955,7 @@
 
       <div class="project-card">
         <div class="project-icon icon-purple">🤖</div>
-        <div class="project-title">SciRio — AI Content Intelligence Platform</div>
+        <div class="project-title">AI Content Intelligence Platform</div>
         <div class="project-desc">An AI content engine that learns each client's voice and gets measurably better with every piece the team approves — so output reads on-brand from day one, not after months of manual editing.</div>
         <div class="project-desc" style="margin-top:10px;">Built around a <strong style="color:var(--text)">Client Brain</strong> — a structured profile (tone, vocabulary, goals, forbidden phrases) injected as a cached system prompt into Claude on every generation. The key layer is a <strong style="color:var(--text)">learning loop</strong>: when the team rates and approves a piece, Claude extracts concrete lessons from the feedback and folds them back into the brain. The system literally gets smarter with use.</div>
         <div class="project-desc" style="margin-top:10px;">Covers every format (LinkedIn, press releases, whitepapers, newsletters) with structure templates per format, <strong style="color:var(--text)">live web research</strong> with citations built into generation, a full <strong style="color:var(--text)">Blog Studio</strong> with SEO scoring and multi-format academic citations, and an approval workflow that doubles as the training signal. Cost-aware routing runs Claude Sonnet for publication-quality writing and Claude Haiku for high-volume background tasks — cutting ~70% of token cost via cached prompts.</div>
@@ -973,7 +972,7 @@
         </div>
         <div class="project-links" style="margin-top: 16px;">
           <a href="https://scirio-ai-platform.vercel.app" target="_blank" class="project-link-btn btn-live">
-            <div class="link-left"><span>🌐</span><div>View Live Platform</div></div>
+            <div class="link-left"><span>🌐</span><div><div>View Live Platform</div><div style="font-size: 11px; opacity: 0.6; font-weight: 400;">No login needed · Try generating content</div></div></div>
             <span class="link-arrow">→</span>
           </a>
           <a href="https://github.com/kartheekgoli05/scirio-ai-platform" target="_blank" class="project-link-btn" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);color:var(--muted);margin-top:10px;">

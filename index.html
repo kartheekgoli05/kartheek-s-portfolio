@@ -1003,6 +1003,42 @@
       </div>
 
       <div class="project-card">
+        <div class="project-icon icon-purple">🔁</div>
+        <div class="project-title">Content Repurposing Engine (n8n)</div>
+        <div class="project-desc">Paste in one blog post, transcript or case study and get a month of LinkedIn, Instagram and Facebook posts. Claude pulls out 8 to 16 distinct ideas from the source, each tied to a specific detail in it, then writes a separate version per platform. Posts are dated Mon/Wed/Fri at each platform's posting time and queued in an n8n Data Table.</div>
+        <div class="project-desc" style="margin-top: 10px;">A second chain runs every 30 minutes, publishes whatever is due through the upload-post API, marks each row done or failed, and emails a daily summary.</div>
+        <div class="project-impact">📆 One source document → 24 to 48 scheduled posts, no topics invented</div>
+        <div class="project-tags">
+          <span class="tag">n8n</span>
+          <span class="tag">Claude API</span>
+          <span class="tag">Data Tables</span>
+          <span class="tag">Gmail</span>
+          <span class="tag">Social Publishing</span>
+        </div>
+        <div class="project-links" style="margin-top: 16px;">
+          <a href="https://github.com/kartheekgoli05/n8n-content-repurposing-engine" target="_blank" class="project-link-btn btn-dashboard">
+            <div class="link-left"><span>⚙️</span><div>View Workflow on GitHub</div></div>
+            <span class="link-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon icon-cyan">🏥</div>
+        <div class="project-title">Hospital AI Receptionist (n8n + Claude)</div>
+        <div class="project-desc">A front-desk chat agent for a hospital OPD. Patients can book, reschedule or cancel appointments, ask about departments, timings and insurance, or ask for a callback. The agent works through six Postgres tools, so every slot, fee and reference code comes from the database.</div>
+        <div class="project-desc" style="margin-top: 10px;">Messages with emergency keywords (chest pain, stroke signs, overdose) skip the model entirely and get a fixed "call 108 / 112" reply plus a logged escalation. Existing appointments are only shown after phone and date of birth match.</div>
+        <div class="project-impact">🛡️ Emergencies bypass the AI · bookings written to Postgres, never made up</div>
+        <div class="project-tags">
+          <span class="tag">n8n AI Agent</span>
+          <span class="tag">Claude</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Webhooks</span>
+          <span class="tag">HTML/JS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
         <div class="project-icon icon-green">📊</div>
         <div class="project-title">BMW Sales & Performance Analytics Dashboard</div>
         <div class="project-desc">Transformed 10,000+ sales records into strategic insight via an interactive Power BI dashboard with drill-downs by region, model, and category.</div>
